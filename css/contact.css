@@ -1,0 +1,53 @@
+footer{
+    height: 90vh;
+    background-color:#E0FFFF;
+    padding: 3% 0;
+    text-align:center;
+  }
+  footer div{
+    display:flex;
+    justify-content:center;
+  }
+  form{
+    width:80%;
+  }
+  input, label, textarea{
+    width:100%;
+    margin:4% 0;
+  }
+  input, textarea{
+    border:none;
+    border-bottom:3px solid #00CED1;
+    background-color:#E0FFFF;
+  }
+  footer nav{
+    width:80%;
+    display:flex;
+    justify-content:space-evenly;
+    
+  }
+  footer nav:hover{
+    color:#fde769;
+  }
+  /* button{
+    width:100%;
+    background-color:#00CED1;
+    color:#fde769;
+    padding: 2% 0;
+    border: 2px solid #fde769;
+    margin-bottom:3%;
+  } */
+  button {
+    display: flex;
+    background-color: #00FF7F;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 18% 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+  button:hover{
+    background-color:#fde769;
+    color:#00CED1;
+    border:2px solid #00CED1;
+  }
